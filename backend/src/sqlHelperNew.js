@@ -11,13 +11,13 @@ const jwt = require("jsonwebtoken");
 //     port: "3306"
 // };
 
-// CONFIGURACIÓN DE LA CONEXIÓN A LA BBDD casa
+// CONFIGURACIÓN DE LA CONEXIÓN A LA BBDD debian
 var config = {
-    host: "localhost",
+    host: "127.0.0.1",
     user: "root",
     password: "root",
     database: "libroteca",
-    port: "8889"
+    port: "3306"
 };
 // CONFIGURACIÓN DE LA CONEXIÓN A LA BBDD casa
 // var config = {

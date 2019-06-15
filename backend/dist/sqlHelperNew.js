@@ -4,11 +4,11 @@ const mysql = require("mysql");
 const md5 = require("md5");
 const jwt = require("jsonwebtoken");
 var config = {
-    host: "localhost",
+    host: "127.0.0.1",
     user: "root",
     password: "root",
     database: "libroteca",
-    port: "8889"
+    port: "3306"
 };
 const secret = "api-seed";
 function altaUser(user) {
