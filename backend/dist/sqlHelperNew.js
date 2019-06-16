@@ -4,7 +4,7 @@ const mysql = require("mysql");
 const md5 = require("md5");
 const jwt = require("jsonwebtoken");
 var config = {
-    host: "127.0.0.1",
+    host: "172.29.104.33",
     user: "root",
     password: "root",
     database: "libroteca",
